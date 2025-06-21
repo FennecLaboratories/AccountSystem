@@ -4,8 +4,7 @@
   <img 
     src="https://i.pinimg.com/736x/68/a4/48/68a4482ef13d14420f839ead427b9511.jpg" 
     alt="FennecLabs Logo" 
-    style="width: 150px; height: auto; border-radius: 12px; margin-right: 20px;"
-  >
+    style="width: 150px; height: auto; border-radius: 12px; margin-right: 20px;">
 
   <!-- Text on the right, stacked -->
   <div>
