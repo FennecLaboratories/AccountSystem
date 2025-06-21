@@ -18,3 +18,12 @@
 - Good UI & UX
 - Secure
 
+# Backend 🌘
+- ORM based
+- powered by Postgres
+- made by N-tier architecture
+
+# Frontend ☀️
+- ???
+- ???
+- ???
