@@ -15,3 +15,6 @@
 
 # Features 🌟
 - Perfect Accaount Control and  EF Core based system
+- Good UI & UX
+- Secure
+
