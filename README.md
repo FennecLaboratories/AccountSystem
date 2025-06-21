@@ -3,7 +3,7 @@
     src="icon.png"
     width="300"
     ,
-    height="300"
+    height="320"
   />
 </div>
 <h1 align="center">FennecLabs - AccountSystem</h1>
