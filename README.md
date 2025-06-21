@@ -6,6 +6,4 @@
     height="300"
   />
 </div>
-
-# AccountSystem
-Simple small API created by EF Core 
+<h1 align="center">FennecLabs - AccountSystem</h1>
