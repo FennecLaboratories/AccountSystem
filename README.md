@@ -27,3 +27,63 @@
 - ???
 - ???
 - ???
+
+
+```mermaid
+graph TD
+  A[📦 Root Directory]
+  
+  subgraph Client
+    AC[AwesomeClient/Readme.txt]
+  end
+  
+  A --> AC
+  A --> IG[.gitignore]
+  A --> LIC[LICENSE]
+  A --> RM[README.md]
+  A --> ICON[icon.png]
+  
+  subgraph Source [source/]
+    subgraph API [OrderSystem.API/]
+      API1[Controllers/]
+      API2[Program.cs]
+      API3[OrderSystem.API.csproj]
+      API4[OrderSystem.API.http]
+      API5[WeatherForecast.cs]
+      API6[appsettings.json]
+      API7[appsettings.Development.json]
+      API8[Properties/launchSettings.json]
+      API1 --> WC[WeatherForecastController.cs]
+    end
+    
+    subgraph BLL [OrderSystem.BLL/]
+      BLL1[OrderSystem.BLL.csproj]
+    end
+    
+    subgraph DAL [OrderSystem.DataAccess/]
+      subgraph Configs [Configurations/]
+        CFG1[CategoryConfiguration.cs]
+        CFG2[OrderConfiguration.cs]
+        CFG3[UserConfigurations.cs]
+        CFG4[Wishlist.cs]
+      end
+      subgraph Entities [Entities/]
+        ENT1[Category.cs]
+        ENT2[Order.cs]
+        ENT3[User.cs]
+        ENT4[Wishlist.cs]
+      end
+      DAL1[OrderSystem.DataAccess.csproj]
+    end
+    
+    subgraph Repo [OrderSystem.Repository/]
+      REPO1[MainContext.cs]
+      REPO2[OrderSystem.Repository.csproj]
+    end
+  end
+
+  A --> Source
+  Source --> API
+  Source --> BLL
+  Source --> DAL
+  Source --> Repo
