@@ -2,7 +2,7 @@
   <img
     src="icon.png"
     width="300",
-    height="320"
+    height="350"
   />
 </div>
 <h1 align="center">FennecLabs - OrderSystem</h1>
