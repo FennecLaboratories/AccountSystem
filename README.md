@@ -11,3 +11,7 @@
 <p align="center">
     <a href="https://t.me/FennecLabs"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
 </p>
+
+
+# Features 🌟
+- Perfect Accaount Control and  EF Core based system
