@@ -1,6 +1,6 @@
 <div align="center" id="madewithlua">
   <img
-    src="https://i.pinimg.com/736x/68/a4/48/68a4482ef13d14420f839ead427b9511.jpg"
+    src="icon.png"
     width="300"
     ,
     height="300"
