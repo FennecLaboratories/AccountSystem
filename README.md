@@ -10,6 +10,9 @@
 <p align="center">
     <a href="https://t.me/FennecLabs"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
     <a><img src ="https://img.shields.io/badge/ASP.NET%20CORE-%23EE4C2C.svg?style=for-the-badge&logo=ASP.NETCore&logoColor=white" ></a>
+  <a href="#">
+        <img alt="Entity%20Fraemwork%20Core"
+             src="https://img.shields.io/badge/Entity%20Fraemwork-092E20?style=for-the-badge&logo=Entity%20Fraemwork&logoColor=green"></a>
 </p>
 
 
