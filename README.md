@@ -20,6 +20,7 @@
         <img alt="PostgreSQL"
              src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/></a>
 </p>
+
 [![Sparkline](https://stars.medv.io/FennecLaboratories/OrderSystem.svg)](https://stars.medv.io/FennecLaboratories/OrderSystem)
 
 <h3 align="center"> Simple small API created by EF Core</h3>
