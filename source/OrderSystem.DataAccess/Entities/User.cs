@@ -12,8 +12,16 @@ public class User
 
     public string Description { get; set; }    
     public string PasswordHash { get; set; }   
-    public string ProfileImage { get; set; }     
+    public string ProfileImage { get; set; }   
+    public UserRole Role { get; set; } = UserRole.Customer;
+
 
     public ICollection<Order> Orders { get; set; }
     public ICollection<Wishlist> Wishlists { get; set; }
+}
+public enum UserRole
+{
+    Customer,
+    Seller,
+    Admin
 }

@@ -17,6 +17,10 @@ public class UserConfigurations : IEntityTypeConfiguration<User>
         builder.Property(u => u.Description).IsRequired(false).HasMaxLength(255);
         builder.Property(u => u.PasswordHash).IsRequired().HasMaxLength(255);
         builder.Property(u => u.ProfileImage).HasMaxLength(2000);
+        builder.Property(u => u.Role)
+            .HasConversion<string>()  
+            .IsRequired();
+
         builder.HasMany(u => u.Orders).WithOne(o => o.User).HasForeignKey(o => o.UserId);
 
     }

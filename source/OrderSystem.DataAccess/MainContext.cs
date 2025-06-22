@@ -22,5 +22,7 @@ public class MainContext : DbContext
         modelBuilder.ApplyConfiguration(new UserConfigurations());
         modelBuilder.ApplyConfiguration(new CategoryConfigurations());
         modelBuilder.ApplyConfiguration(new WishlistConfigurations());
+        modelBuilder.ApplyConfiguration(new OrderItemConfigurations());
+        modelBuilder.ApplyConfiguration(new ItemConfigurations());
     }
 }
