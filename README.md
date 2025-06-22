@@ -21,7 +21,7 @@
              src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/></a>
 </p>
 
-<h3 align="center"> Simple small API created by EF Core></h3>
+<h3 align="center"> Simple small API created by EF Core</h3>
 ---
 # Features 🌟
 - Perfect Accaount Control and  EF Core based system
