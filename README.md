@@ -13,6 +13,9 @@
   <a href="#">
         <img alt="Entity%20Fraemwork%20Core"
              src="https://img.shields.io/badge/Entity%20Fraemwork-092E20?style=for-the-badge&logo=Entity%20Fraemwork&logoColor=green"></a>
+      <a href="#">
+  <img alt="C#"
+             src="https://img.shields.io/badge/csharp-%2300599C.svg?style=for-the-badge&logo=csharp&logoColor=white"></a>
 </p>
 
 
