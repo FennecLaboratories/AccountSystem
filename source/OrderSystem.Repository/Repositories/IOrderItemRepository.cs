@@ -1,6 +1,8 @@
+using OrderSystem.DataAccess.Entities;
 namespace OrderSystem.Repository.Repositories;
 
-public class IOrderItemRepository
+public interface IOrderItemRepository : IBaseRepository<OrderItem>
 {
-    
+    Task<IEnumerable<OrderItem>> GetOrderItemsByOrderIdAsync(int orderId);
+    Task<decimal> GetOrderTotalAsync(int orderId);
 }

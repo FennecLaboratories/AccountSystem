@@ -9,5 +9,9 @@ public class WishlistConfigurations : IEntityTypeConfiguration<Wishlist>
         builder.ToTable("Wishlist");
         builder.HasKey(w => w.Id);
         builder.Property(w => w.Title).IsRequired().HasMaxLength(100);
+        builder.HasOne(w => w.User)
+            .WithMany()
+            .HasForeignKey(w => w.UserId);
+        builder.HasOne(w=>w.Item).WithMany().HasForeignKey(w=>w.ItemId);
     }
 }

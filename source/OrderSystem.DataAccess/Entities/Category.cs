@@ -8,4 +8,6 @@ public class Category
 
     public long WishlistId { get; set; }
     public Wishlist Wishlist { get; set; }
+    public long ItemId { get; set; }
+    public Item Item { get; set; }
 }
