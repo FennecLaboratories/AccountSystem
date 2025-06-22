@@ -16,6 +16,9 @@
       <a href="#">
   <img alt="C#"
              src="https://img.shields.io/badge/csharp-%2300599C.svg?style=for-the-badge&logo=csharp&logoColor=white"></a>
+      <a href="#">
+        <img alt="PostgreSQL"
+             src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/></a>
 </p>
 
 
