@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
 using OrderSystem.DataAccess.Entities;
 namespace OrderSystem.DataAccess.Configurations;
-public class WishlistConfiguration : IEntityTypeConfiguration<Wishlist>
+public class WishlistConfigurations : IEntityTypeConfiguration<Wishlist>
 {
     public void Configure(EntityTypeBuilder<Wishlist> builder)
     {

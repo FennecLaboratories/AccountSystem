@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
 using OrderSystem.DataAccess.Entities;
 namespace OrderSystem.DataAccess.Configurations;
-public class OrderConfiguration :  IEntityTypeConfiguration<Order>
+public class OrderConfigurations :  IEntityTypeConfiguration<Order>
 {
     public void Configure(EntityTypeBuilder<Order> builder)
     {
