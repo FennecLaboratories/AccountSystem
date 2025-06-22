@@ -1,7 +1,7 @@
 using OrderSystem.DataAccess.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace OrderSystem.Repository.Repositories;
+namespace OrderSystem.Repository.Repositories.UserRepository;
 
 public class UserRepository : BaseRepository<User>, IUserRepository
 {

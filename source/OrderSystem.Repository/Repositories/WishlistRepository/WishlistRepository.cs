@@ -1,7 +1,7 @@
 using OrderSystem.DataAccess.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace OrderSystem.Repository.Repositories;
+namespace OrderSystem.Repository.Repositories.WishlistRepository;
 
 public class WishlistRepository : BaseRepository<Wishlist>, IWishlistRepository
 {

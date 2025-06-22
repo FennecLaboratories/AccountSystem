@@ -1,5 +1,5 @@
 using OrderSystem.DataAccess.Entities;
-namespace OrderSystem.Repository.Repositories;
+namespace OrderSystem.Repository.Repositories.OrderItemRepository;
 
 public interface IOrderItemRepository : IBaseRepository<OrderItem>
 {

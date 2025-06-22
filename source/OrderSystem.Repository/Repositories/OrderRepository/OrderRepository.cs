@@ -1,6 +1,6 @@
 using OrderSystem.DataAccess.Entities;
 using Microsoft.EntityFrameworkCore;
-namespace OrderSystem.Repository.Repositories;
+namespace OrderSystem.Repository.Repositories.OrderRepository;
 
 public class OrderRepository : BaseRepository<Order>, IOrderRepository
 {

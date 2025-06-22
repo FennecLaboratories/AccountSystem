@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using OrderSystem.DataAccess.Entities;
-namespace OrderSystem.Repository.Repositories;
+namespace OrderSystem.Repository.Repositories.CategoryRepository;
 
 public class CategoryRepository : BaseRepository<Category>, ICategoryRepository
 {

@@ -1,5 +1,11 @@
 using FluentValidation;
-using OrderSystem.Repository.Repositories;
+using OrderSystem.Repository.Repositories.CategoryRepository;
+using OrderSystem.Repository.Repositories.OrderItemRepository;
+using OrderSystem.Repository.Repositories.OrderRepository;
+using OrderSystem.Repository.Repositories.UserRepository;
+using OrderSystem.Repository.Repositories.WishlistRepository;
+using OrderSystem.Repository.Repositories.ItemRepository;
+using OrderSystem.Repository;
 using Microsoft.EntityFrameworkCore;
 namespace OrderSystem.API.Configurations;
 
