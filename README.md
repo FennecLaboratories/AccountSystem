@@ -21,8 +21,9 @@
              src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/></a>
 </p>
 
-[![Sparkline](https://stars.medv.io/FennecLaboratories/OrderSystem.svg)](https://stars.medv.io/FennecLaboratories/OrderSystem)
-
+  <p align="center">
+    <img src="https://stars.medv.io/LunarVim/LunarVim.svg", title="commits"/>
+  </p>
 <h3 align="center"> Simple small API created by EF Core</h3>
 
 
