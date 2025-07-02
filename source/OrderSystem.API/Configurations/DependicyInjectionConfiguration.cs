@@ -19,5 +19,12 @@ public static class DependicyInjectionConfiguration
         builder.Services.AddScoped<IOrderRepository, OrderRepository>();
         builder.Services.AddScoped<IOrderItemRepository, OrderItemRepository>();
         builder.Services.AddScoped<IWishlistRepository, WishlistRepository>();
+
+        builder.Services.AddScoped<IUserService, UserService>();
+        builder.Services.AddScoped<ICategoryService, CategoryService>();
+        builder.Services.AddScoped<IItemService, ItemService>();
+        builder.Services.AddScoped<IOrderService, OrderService>();
+        builder.Services.AddScoped<IWishlistService, WishlistService>();
+        builder.Services.AddScoped<IOrderItemService, OrderItemService>();
     }
 }

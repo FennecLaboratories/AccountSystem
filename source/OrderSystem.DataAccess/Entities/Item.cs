@@ -12,7 +12,6 @@ public class Item
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     public DateTime? UpdatedAt { get; set; }
 
-    // Navigation properties
     public long CategoryId { get; set; }
     public Category Category { get; set; }
     
