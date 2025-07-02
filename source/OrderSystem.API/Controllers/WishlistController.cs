@@ -5,6 +5,7 @@ using OrderSystem.BLL.Services;
 namespace OrderSystem.API.Controllers;
 
 [ApiController]
+
 [Route("api/[controller]")]
 public class WishlistsController : ControllerBase
 {

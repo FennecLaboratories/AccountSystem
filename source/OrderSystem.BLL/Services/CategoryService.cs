@@ -43,6 +43,7 @@ public class CategoryService : ICategoryService
         await _categoryRepository.AddAsync(category);
     }
 
+
     public async Task UpdateCategoryAsync(CategoryDto categoryDto)
     {
         var category = await _categoryRepository.GetByIdAsync(categoryDto.Id);

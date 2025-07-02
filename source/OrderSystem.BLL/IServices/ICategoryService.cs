@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 
 namespace OrderSystem.BLL.Services;
 
+
 public interface ICategoryService
 {
     Task<IEnumerable<CategoryDto>> GetAllCategoriesAsync();

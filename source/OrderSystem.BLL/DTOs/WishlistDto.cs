@@ -1,5 +1,6 @@
 namespace OrderSystem.BLL.DTOs;
 
+
 public class WishlistDto
 {
 	public long Id { get; set; }

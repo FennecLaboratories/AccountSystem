@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 
 namespace OrderSystem.BLL.Services;
 
+
 public interface IUserService
 {
     Task<IEnumerable<UserDto>> GetAllUsersAsync();

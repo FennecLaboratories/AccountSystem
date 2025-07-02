@@ -1,5 +1,6 @@
 namespace OrderSystem.BLL.Services;
 
+
 public class WishlistService : IWishlistService
 {
     private readonly IWishlistRepository _wishlistRepository;
